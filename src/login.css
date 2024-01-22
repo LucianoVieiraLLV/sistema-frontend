@@ -1,0 +1,18 @@
+button{
+    width: 100%;
+}
+
+input[type="email"]{
+    width: 100%;
+}
+input[type="password"]{
+    width: 100%;
+}
+
+.esqueceuSenha{
+    float: right;
+    font-size: 14px;
+}
+.box{
+    width: 300px;
+}

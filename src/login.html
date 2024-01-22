@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+
+      <h1>login</h1>
+
+      <img height="100" src="../logo.png" alt="">
+
+      <form id="frmLogin">
+        <label for="txtEmail">Digite seu email</label> <input type="email" id="txtEmail">
+        <br>
+        <label for="txtSenha">Digite sua senha</label> <input type="password" id="txtSenha">
+        <br>
+
+        <a class="esqueceuSenha" href="tela-7-esqueceu-senha.html">Esqueci minha senha</a>
+        <br>
+        <button id="btn1">Entrar</button>
+
+      </form>
+
+      <span id="spnErro" class="erro"></span>
+
+      <p>Não possui conta? <a href="tela-6-cadastro.html">Cadastra-se</a> </p>
+    </div>
+
+  </div>
+  <script src="login.js"></script>
+</body>
+
+</html>
